@@ -1,0 +1,21 @@
+{
+  "name": "coup-api",
+  "version": "1.0.0",
+  "description": "Criando uma API para Gerenciar PARTIDAS de COUP / Golpe de Estado",
+  "main": "index.js",
+  "type":"module",
+  "scripts": {
+    "preexec": "tsc",
+    "exec": "node"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "prompt-sync": "^4.2.0",
+    "typescript": "^5.4.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.8"
+  }
+}
